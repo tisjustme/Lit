@@ -18,7 +18,7 @@ function setText(text){
 
  function makeChoice(choice){
     if(choice === "horde"){
-        setText("Your friends, Klippi and Klappi are upset because they also want some lilly pads. They come up to you and ask nicely If you will share some with them do you       say no       or do you     share")
+        setText("Your friends, Klippi and Klappi are upset because they also want some lilly pads. They come up to you and ask nicely If you will share some with them do you       [say no]       or do you     [share]")
         document.getElementById("Klippi").src = "SadKlippi.png"
         document.getElementById("Klappi").src = "SadKlappi.png"
         document.getElementById("lillypad").style.display ="block"
@@ -40,7 +40,7 @@ function setText(text){
            
        }
        if(choice === "say no"){
-           setText("Klippi and Klappi are mad because they want lilly pads too, they say that they will give you one more chance before they will have to fight for the lilly pads do you    Share    or do you     keep them")
+           setText("Klippi and Klappi are mad because they want lilly pads too, they say that they will give you one more chance before they will have to fight for the lilly pads do you    [share]    or do you     [keep them]")
            document.getElementById("Klippi").src = "KlippiMad.png"
            document.getElementById("Klappi").src = "KlappiMad.png"
       
@@ -48,10 +48,10 @@ function setText(text){
         if(choice === "keep them"){
             setText("You are being selfish and your friends, klippi and klappi are upset, they tell you that you guys can't be frineds anymore and now because you took all of the lillypads you lost your friends, The End")
             document.getElementById("Klappi").src = "bigbruh.png"
-            document.getElementById("Klappi").src = "smallbruh.png"
+            document.getElementById("Klippi").src = "smallbruh.png"
             document.getElementById("Anton").src = "AntonSad.png"
         }
 
     }
-setText("This is Anton the frog, and he loves the pond, He loves lilly pads very much and there are 15 lilly pads in the pool you can take all 15 or you can split them evenly between you and your friends, Klippi and Klappi do you      horde        or do you     share")
+setText("This is Anton the frog, and he loves the pond, He loves lilly pads very much and there are 15 lilly pads in the pool you can take all 15 or you can split them evenly between you and your friends, Klippi and Klappi do you      [horde]        or do you     [share]")
 
