@@ -9,7 +9,7 @@ document.body.append(textBox);
 let inputBox = document.createElement("input");
 inputBox.type = "text";
 inputBox.style.position = "absolute" ;
-inputBox.style.bottom = "80%" ;
+inputBox.style.bottom = "75%" ;
 inputBox.style.right = "50%"
 document.body.append(inputBox);
 
@@ -18,7 +18,7 @@ function setText(text){
 
  function makeChoice(choice){
     if(choice === "horde"){
-        setText("Your friends, Klippi and Klappi are upset because they also want some lilly pads. They come up to you and ask nicely If you will share some with them do you A) say no or B)share")
+        setText("Your friends, Klippi and Klappi are upset because they also want some lilly pads. They come up to you and ask nicely If you will share some with them do you       say no       or do you     share")
         document.getElementById("Klippi").src = "SadKlippi.png"
         document.getElementById("Klappi").src = "SadKlappi.png"
         document.getElementById("lillypad").style.display ="block"
@@ -40,7 +40,7 @@ function setText(text){
            
        }
        if(choice === "say no"){
-           setText("Klippi and Klappi are mad because they want lilly pads too, they say that they will give you one more chance before they will have to fight for the lilly pads do you A) share or B) keep them")
+           setText("Klippi and Klappi are mad because they want lilly pads too, they say that they will give you one more chance before they will have to fight for the lilly pads do you    Share    or do you     keep them")
            document.getElementById("Klippi").src = "KlippiMad.png"
            document.getElementById("Klappi").src = "KlappiMad.png"
       
@@ -53,5 +53,5 @@ function setText(text){
         }
 
     }
-setText("This is Anton the frog, and he loves the pond, He loves lilly pads very much and there are 15 lilly pads in the pool you can take all 15 or you can split them evenly between you and your friends, Klippi and Klappi do you A)horde or B)share")
+setText("This is Anton the frog, and he loves the pond, He loves lilly pads very much and there are 15 lilly pads in the pool you can take all 15 or you can split them evenly between you and your friends, Klippi and Klappi do you      horde        or do you     share")
 
